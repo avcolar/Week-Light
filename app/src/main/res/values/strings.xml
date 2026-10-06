@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Weeklight</string>
+    <string name="previous_weeks">Previous weeks</string>
+    <string name="next_weeks">Next weeks</string>
+    <string name="configure_widget">Configure Weeklight widget</string>
+    <string name="add_widget_hint">Add a Weeklight widget from your home screen to configure it.</string>
+    <string name="resize_widget">Resize widget</string>
+    <string name="weeks_selected">%1$d weeks selected</string>
+    <string name="calendar_access_needed">Calendar access needed</string>
+    <string name="open_choose_calendars">Open Weeklight to choose calendars.</string>
+    <string name="open_grant_access">Open Weeklight to grant access.</string>
+    <string name="no_calendars_selected">No calendars selected</string>
+    <string name="choose_calendars">Choose calendars</string>
+    <string name="open_update_widget">Open Weeklight to update this widget.</string>
+    <string name="calendar_unavailable">Calendar unavailable</string>
+    <string name="open_retry">Open Weeklight to retry.</string>
+    <string name="agenda_entry">%1$s - %2$s</string>
+    <string name="agenda_accessibility">%1$s, %2$s, %3$s</string>
+    <string name="agenda_untitled">Untitled entry</string>
+    <string name="kind_holiday">Holiday</string>
+    <string name="kind_event">Event</string>
+    <string name="kind_task">Task</string>
+    <string name="task_calendar">Task calendar</string>
+    <string name="dot_colors">Dot colors</string>
+    <string name="holiday_color">Holiday color</string>
+    <string name="event_color">Event color</string>
+    <string name="task_color">Task color</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_purple">Purple</string>
+    <string name="color_green">Green</string>
+</resources>

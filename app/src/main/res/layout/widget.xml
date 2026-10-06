@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="10dp" android:background="@drawable/widget_background">
+    <LinearLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="48dp" android:gravity="center_vertical" android:orientation="horizontal">
+        <TextView android:id="@+id/previous" android:layout_width="48dp" android:layout_height="48dp" android:contentDescription="@string/previous_weeks" android:gravity="center" android:text="&#x2039;" android:textColor="@color/widget_accent" android:textSize="28sp" />
+        <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:singleLine="true" android:ellipsize="end" android:textColor="@color/widget_text" android:textSize="17sp" android:textStyle="bold" />
+        <TextView android:id="@+id/next" android:layout_width="48dp" android:layout_height="48dp" android:contentDescription="@string/next_weeks" android:gravity="center" android:text="&#x203A;" android:textColor="@color/widget_accent" android:textSize="28sp" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/weekdays" android:layout_width="match_parent" android:layout_height="24dp" android:orientation="horizontal" />
+    <LinearLayout android:id="@+id/weeks" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+    <ListView android:id="@+id/agenda" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:divider="@android:color/transparent" android:dividerHeight="0dp" android:scrollbars="none" />
+</LinearLayout>
